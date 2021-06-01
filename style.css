@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d7ebd5;
+}
+
+html {
+  font-size: 93.75%;
+}
+
+.square {
+  padding: 0;
+  margin: -1;
+  width: 850px;
+  box-sizing: border-box;
+  align-content: justify;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 50px;
+  justify-content:center
+
+  top: -0;
+  transform: translateY(-80%);
+}
+
+#canvas {
+  background-color: RED;
+  color: WHITE;
+  font-family: "Stint Ultra Condensed", cursive;
+  font-size: 25px;
+  widows: 600px;
+  height: 500px;
+  margin: 500px auto 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  position: relative;
+  display: flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(-200%);
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+#button {
+  justify-content: space-center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 50px auto 50px;
+  color: white;
+  font-size: 30px;
+  font-family: "Stint Ultra Condensed", cursive;
+
+  background-color: black;
+  border-radius: 50px;
+  display: black;
+  box-shadow: 10px 10px 5px grey;
+}
+#button:hover {
+  background: rgb(61, 58, 58);
+}
+
+footer {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  transform: translateY(-300%);
+  font-family: "Stint Ultra Condensed", cursive;
+  color: black;
+  box-shadow: px 1px 1px grey;
+}
